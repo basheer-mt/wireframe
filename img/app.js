@@ -31,7 +31,8 @@ if (Makeup == "Face") {
   var colors = prompt("What is your favorite color");
   
 
-document.write('<h2>' + "You are looking for:  " + Makeup.fontcolor("") + "_Makeup" + '</h2>');
+
+  document.write('<h2>' + "You are looking for:  " + Makeup.fontcolor("") + "_Makeup" + '</h2>');
 
 document.write('<h2>' + "Your favorite color:  " + colors + '</h2>');
 
