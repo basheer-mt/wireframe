@@ -58,6 +58,7 @@ main table {
 }
 main table td {
     border: solid 1px;
+    color: #810034;
     text-align: center;
 }
 
