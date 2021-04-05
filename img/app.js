@@ -1,9 +1,9 @@
-// First prompt
+// First prompt 
 
 var username = prompt("what's your name?");
 
 document.write(username);
-document.write('<h3>' + "Hello" + username + '</h3>');
+document.write('<h3>' + "Hello" + "_" + username + '</h3>');
 
     alert("welcome " + username + " To Eva Cosmetics");
 
@@ -29,12 +29,16 @@ if (Makeup == "Face") {
 
 
   var colors = prompt("What is your favorite color");
+  
 
-document.write('<h2>' + "You are looking for:" + Makeup + '</h2>');
+document.write('<h2>' + "You are looking for:  " + Makeup.fontcolor("") + "_Makeup" + '</h2>');
 
-document.write('<h2>' + "Your favorite color:" + colors + '</h2>');
+document.write('<h2>' + "Your favorite color:  " + colors + '</h2>');
 
-document.getElementById("nav").style.backgroundColor = colors;
+document.bgColor = colors;
+
+
+
 
 
 

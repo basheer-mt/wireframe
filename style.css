@@ -1,12 +1,67 @@
-nav {
-    
-    background-color: #ff999c;
-    width: 100%;
-}
-footer{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
+
+body {
+  width: 1000px;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header nav table {
+    float: right;
+    
+}
+
+header nav table td {
+    border: 1px solid #f0e4d7;
     text-align: center;
 }
-main{
+header nav table {
+    padding-left: 0px;
+}
+header img {
+    width: 120px;
+    margin-left: 30px ;
+}
+
+#heroImage {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #f6dfeb;
+}
+nav {
+    display: inline-block;
+    color: #440a67;
+    width: 80%; 
+}
+
+main {
+    background-color: #f9f3f3;
+    margin-bottom: 100px;
+}
+main form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main table {
+    float: right;
+    border-collapse: collapse;
+    padding-right: 40px;
+    margin-right: 20px;
+
+}
+main table td {
+    border: solid 1px;
+    text-align: center;
+}
+
+footer{
+
     text-align: center;
 }
